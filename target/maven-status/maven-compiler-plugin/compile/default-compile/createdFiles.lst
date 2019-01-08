@@ -1,0 +1,7 @@
+dataBaseManager\DataBaseManager.class
+product\Product.class
+administrationFilter\AdministrationFilter.class
+uploadImageServlet\UploadImageServlet.class
+removeSessionServlet\RemoveSessionServlet.class
+administrationServlet\AdministrationServlet.class
+showProductsServlet\ShowProductsServlet.class

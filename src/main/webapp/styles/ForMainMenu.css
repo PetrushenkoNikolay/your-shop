@@ -1,0 +1,120 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Verdana,Arial,Helvetica, sans-serif;
+	font-weight: bold;
+	min-width: 1024px;
+	background: #EAEDED;
+}
+
+.mainMenu{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 50px;
+	list-style: none;
+	color: white;
+	background: linear-gradient(#5F6152,black);
+	
+}
+.mainMenu li{
+	padding:0px 10px;
+	display: inline-block;
+	position: relative;
+	height:100%;
+	line-height: 50px;
+	}
+li:hover{
+	text-decoration: underline;
+	text-shadow: 0 0 5px white;
+	cursor: pointer;
+	border-bottom: solid 2px red;
+}
+.logoimage{
+	height:50px;
+	vertical-align: middle;
+}
+.searchbar{
+	display: inline-block;
+	width: 100%;
+	height: 80px;
+	background: #E6E6E6;
+	vertical-align: middle;
+	line-height: 80px;
+}
+#search{
+	margin-left: 20px;
+	width: 50%;
+	height: 30px;
+	font-size: larger;
+	border: none;
+	border-radius: 5px;
+}
+#basket{
+	display: inline-block;
+	width: 150px;
+	height: 40px;
+	margin-left: 80px;
+	border: solid 1px black;
+	border-radius: 5px;
+	line-height: 40px;
+	vertical-align: middle;
+	text-align: center;
+}
+#basket:hover{
+	color:blue;
+	border-color: blue;
+	cursor: pointer;
+}
+#productMenu{
+	min-width: 1024px;
+	height: 50px;
+	background: linear-gradient(#0000BB,#93B7DF);
+}
+#productMenuBar{
+	margin: 0;
+	padding: 0;
+}
+#productMenuBar li{
+	display: inline-block;
+	list-style: none;
+	line-height: 50px;
+	padding: 0 10px;
+	color:white;
+}
+#productChoice{
+	text-align:center;
+	display:block;
+	position:fixed;
+	width:200px;
+	margin-left:30px;
+	padding:10px;
+	background-color:white;
+	border: 1px solid #d2d5d5;
+	border-radius:10px;
+	box-shadow:0 0 10px black;
+	font-style: helvetica;
+	font-size: small;
+	font-weight: lighter;
+}
+#productChoice input {
+	width:65px;
+}
+#productChoice select {
+	width:160px;
+}
+.MainMenu li a{
+	color:white;
+}
+#showProductsDiv{
+	display:block;
+	position:absolute;
+	left:300px;
+	width:1000px;
+	background: white;
+	border: 1px solid #d2d5d5;
+}
+#ifr {
+	width:1000px;
+	scr
+}
